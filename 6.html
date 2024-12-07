@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      width: 35em;
+      background: white;
+      box-shadow: 5px 5px 15px pink;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 600px;
+      margin-top: 150px;
+      margin-left: 450px;
+    }
+
+    p {
+      font-size: 0.6em;
+      letter-spacing: 1px;
+    }
+
+    .images {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+    .imahe {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+
+    .slideshow-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .slideshow-buttons span {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: rgba(241, 241, 241, 1.00);
+    }
+
+    .pick {
+      text-transform: uppercase;
+      font-size: 10px;
+    }
+
+    .sizes {
+      display: flex;
+      justify-content: flex-start;
+      column-gap: 40px;
+      flex-wrap: wrap;
+      font-family: Cambria, "Hoef: ;ler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+      font-size: 13px;
+    }
+
+    .size {
+      border: none;
+      width: 40px;
+      height: 35px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 2px;
+      font-size: px;
+      transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    .size:hover {
+      background: lightslategray;
+      color: white;
+      transform: scale(1.1)
+    }
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: 20px;
+    }
+
+    #p {
+      text-transform: uppercase;
+    }
+
+    .par2 {
+      font-size: 0px;
+    }
+
+    .description {
+      text-transform: none;
+      letter-spacing: 5;
+      margin-bottom: 17px;
+      color: rgba(20, 16, 16, 1.00);
+      font-size: 1em;
+      line-height: 1.6em;
+      text-align: justify;
+    }
+
+    .buttons {
+      padding: 1px;
+      display: flex;
+      outline: 0;
+      border: 0;
+      border-radius: 2px;
+      letter-spacing: 1px;
+      color: white;
+      cursor: pointer;
+    }
+    .header {
+    background-color: rgb(0, 190, 190);
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.topnav {
+    background-color: rgba(12, 0, 175, 0.904);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topnav a {
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.topnav a:hover {
+    background-color: rgb(0, 190, 190);
+    color: black;
+}
+
+    .buttons:hover {
+      transition: all 0.4s ease-in-out;
+    }
+
+    .add {
+      width: 150px;
+      font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+      text-transform: uppercase;
+      margin-right: 10px;
+    }
+
+    .back {
+      width: 50px;
+      font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <img src="logo-no-background.png" width="250" height="70">
+</header>
+<nav class="topnav">
+    <a href="#" class="active">Home</a>
+    <a href="Product index.html">Products</a>
+    <a href="#">Shop Now</a>
+    <a href="#">About</a>
+    </nav>
+  <div class="container">
+    <div class="images">
+      <img alt="" src="6.png" class="imahe">
+      <div class="slideshow-buttons">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <p class="pick">Choose</p>
+      <div class="sizes">
+        <span class="size">180mm</span>
+        <span class="size">200mm</span>
+        <span class="size">220mm</span>
+      </div>
+    </div>
+
+    <div class="product">
+      <p class="par2"></p>
+      <h2>Air-King</h2>
+      <p class="description">The Air-King dial features a distinctive black dial with a combination of large 3, 6 and 9 numerals marking the hours and a prominent minute scale for navigational time readings.
+      </p>
+      <h1>Php 349,000</h1>
+      <div class="buttons">
+        <button class="add">Add to Cart</button>
+        <a href="Product index.html"><button class="back">Back</button></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+</body>
+
+</html>
